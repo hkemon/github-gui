@@ -1,0 +1,19 @@
+{
+  "name": "github-gui",
+  "version": "1.0.0",
+  "description": "Snap Version of Github",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --linux snap"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "hkemon",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "11.1.0",
+    "electron-builder": "22.9.1"
+  }
+}
